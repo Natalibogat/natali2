@@ -14,7 +14,7 @@ public class RAAN {
         JMenuBar menu = new JMenuBar();
         JMenu menuHelloCli = new JMenu("HelloCli");
         JMenuItem itemHelloEn=new JMenuItem("HelloEn");
-        menuHelloCli.add(itemHelloEn);
+         menuHelloCli.add(itemHelloEn);
          menu.add(menuHelloCli);
          itemHelloEn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent actionEvent) {
